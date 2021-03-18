@@ -8,8 +8,9 @@
 [ X ] Possibilidade de exibir os filmes mais vistos por categorias;
 [ X ] Possibilidade de abrir um chamado técnico de algum problema que está acontecendo;
 [ X ] Possibilidade de visualizar os chamados técnicos;
-[   ] Possibilidade de visualizar os filmes e séries que já foram assistidos;   ##### Isso vai vir da fila #####
+[ X ] Possibilidade de visualizar os filmes e séries que já foram assistidos;
 
-
-
-Ajustes o pacote RabbitMQ para tratar o mensagem como json dentro do publish;
+Filas
+[ X ] Quando altera alguma informação no filme (name, detail) os serviço de usuário é alertado para alterar as informações dos filmes;
+[ X ] Quando o filme é marcado como visualizado, é adicionado na fila de visualizações, assim o serviço do usuário pode guardar o histórico;           
+[ X ] Quando altera o nome do usuário o serviço de suporte é informado
