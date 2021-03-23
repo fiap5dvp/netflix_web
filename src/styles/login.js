@@ -55,7 +55,6 @@ export const Modal = styled.div`
 
 export const Input = styled.div`
   border-radius: 4px;
-  padding: 0 20px;
   width: 314px;
   height: 52px;
   margin-bottom: 15px;
@@ -68,6 +67,8 @@ export const Input = styled.div`
   }
 
   input {
+    border-radius: 4px;
+    padding: 0 20px;
     height: 100%;
     border: 0;
     width: 100%;

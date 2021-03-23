@@ -14,3 +14,4 @@ Filas
 [ X ] Quando altera alguma informação no filme (name, detail) os serviço de usuário é alertado para alterar as informações dos filmes;
 [ X ] Quando o filme é marcado como visualizado, é adicionado na fila de visualizações, assim o serviço do usuário pode guardar o histórico;           
 [ X ] Quando altera o nome do usuário o serviço de suporte é informado
+
