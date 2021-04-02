@@ -5,10 +5,10 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install && npm build
+RUN next build
 
 # Bundle app source
 COPY . .
 
 EXPOSE 3000
-CMD [ "node", "src/index.js" ]
+CMD [ "nest", "start" ]
