@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    CATALOG_SERVICE_URL: "http://localhost:4001",
-    USER_SERVICE_URL: "http://localhost:4000",
+    CATALOG_SERVICE_URL: "http://catalog",
+    USER_SERVICE_URL: "http://user",
   },
 };
